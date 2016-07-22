@@ -1,0 +1,185 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1{
+	position: absolute;
+	top: 35%;
+	left:10%;
+}
+
+a{
+	text-decoration: unset;
+}
+
+.tagbar{
+	position:fixed;
+	left:0;
+	height:100%;
+	background-color: #111;
+	width:60px;
+	z-index: 9999;
+}
+
+.barh2{
+	margin: 250px 15px 150px 15px;
+	-webkit-writing-mode: vertical-lr;
+	writing-mode: vertical-lr ;
+	font-family: 'Covered By Your Grace', cursive;
+	font-size: 32px;
+	color: #fff;
+	cursor: default;
+}
+
+.opentag{
+	position:absolute;
+	bottom:0px;
+	margin-bottom: 20px;
+}
+
+.opentag>li{
+	width:60px;
+	height:25px;
+	padding:5px 25px 5px 25px;
+	-webkit-transition: all linear 0.2s;
+    transition: all linear 0.2s;
+}
+
+
+
+.divdot{
+	width:10px;
+	height:10px;
+	border-radius: 99em;
+	background-color:#666;
+	-webkit-transition: all linear 0.4s;
+    transition: all linear 0.4s;
+}
+
+.divdothover{
+	background-color: #FFFF00;
+}
+
+.tag{
+	position: absolute;
+	font-size: 17px;
+	left:60px;
+	bottom:35px;
+	cursor : default;
+}
+
+.tag>a{
+	cursor : default;
+}
+
+
+.tag>a>li{
+	position:relative;
+	white-space: nowrap;
+	background-color: #FFFF00	;
+	height:20px;
+	width: 0px;
+	padding: 7px 0 7px 0;
+	color: #333;
+	text-align: center;
+	font-family: FangSong;
+	font-weight: bold;
+	-webkit-transition: all linear 0.5s;
+    transition: all linear 0.5s;
+    opacity:0;
+    z-index: 0;
+}
+
+
+.text{
+	color: #fff;
+	font-size: 24px;
+	font-family: FangSong;
+	line-height: 30px;　
+
+}
+
+#first{
+	background-image: url("pic/Deserts_Xuan.jpg"); 
+	background-size: 110% 100%;
+	background-position: -150px 0;
+	background-repeat: repeat-x;
+	
+}
+
+#second{
+	background-image: url("pic/water.jpg"); 
+	background-size: 100% 115%;
+	background-position: 0 -150px;
+	
+}
+
+.second_text{
+	*background-image: url("pic/dark_matter.png");
+	position:relative;
+	display: block;
+	padding-top: 15%;
+	margin:0px auto;
+	width:40%;
+	*height:60%;
+}
+
+.second_text>ul>li{
+	margin: 20px;
+}
+
+#third{
+	background-image: url("pic/nolist.png"); 
+	background-size: 100% 110%;
+	
+}
+
+#third>ul>li{
+	margin:12px;
+
+}
